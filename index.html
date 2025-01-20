@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oraimo229 - Produits et Contacts</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        nav {
+            background-color: #2ecc71;
+        }
+
+        nav ul li strong {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        nav ul li a {
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main h2 {
+            color: #2ecc71;
+        }
+
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .product-description {
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+
+        .product-description a {
+            color: #2ecc71;
+            text-decoration: none;
+        }
+
+        .product-description a:hover {
+            text-decoration: underline;
+        }
+
+        .buy-button {
+            margin-top: 1rem;
+            display: inline-block;
+            background-color: #34495e;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .buy-button:hover {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Oraimo229</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#acceuil">Accueil</a></li>
+            <li><a href="#produits">Produits</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div id="acceuil" class="grid">
+            <section>
+                <hgroup>
+                    <h2>Bienvenue chez Oraimo229</h2>
+                    <h3>Découvrez les meilleurs produits Oraimo adaptés à vos besoins.</h3>
+                </hgroup>
+                <p>Nos produits sont conçus pour offrir une qualité exceptionnelle à un prix abordable.</p>
+            </section>
+        </div>
+
+        <div id="produits" class="grid">
+            <section>
+                <hgroup>
+                    <h2>Nos Produits</h2>
+                    <h3>Découvrez notre sélection</h3>
+                </hgroup>
+
+                <div class="product-description">
+                    <h3>Écouteurs Space Buds</h3>
+                    <p>Les Space Buds d'Oraimo offrent une expérience sonore immersive avec une autonomie longue durée
+                        et une connectivité rapide. Parfaits pour les amateurs de musique et les professionnels en
+                        déplacement.</p>
+                    <a href="https://www.oraimo.com/product/beyond-sound-spacebuds" target="_blank">En savoir plus sur
+                        les Space Buds</a>
+                    <br>
+                    <a class="buy-button"
+                        href="https://wa.me/22995760010?text=Je%20souhaite%20acheter%20les%20Space%20Buds%20Oraimo"
+                        target="_blank">Acheter</a>
+                </div>
+
+                <div class="product-description">
+                    <h3>Écouteurs FreePods Neo</h3>
+                    <p>Les FreePods Neo sont des écouteurs sans fil élégants avec une qualité audio exceptionnelle, un
+                        design compact et un confort optimal pour une utilisation quotidienne.</p>
+                    <a href="https://www.oraimo.com/product/lasting-tunes-comfy-fit-freepods-neo" target="_blank">En
+                        savoir plus sur les FreePods Neo</a>
+                    <br>
+                    <a class="buy-button"
+                        href="https://wa.me/22995760010?text=Je%20souhaite%20acheter%20les%20FreePods%20Neo%20Oraimo"
+                        target="_blank">Acheter</a>
+                </div>
+            </section>
+        </div>
+
+        <div id="contacts" class="grid">
+            <section>
+                <hgroup>
+                    <h2>Contactez-nous</h2>
+                    <h3>Restez en contact avec nous</h3>
+                </hgroup>
+                <p>
+                    WhatsApp : <a href="https://wa.me/22995760010" target="_blank">+229 95 76 00 10</a><br>
+                    Appel : <a href="tel:+22996844078">+229 96 84 40 78</a>
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container">
+        <small>
+            <a href="#acceuil">Accueil</a> • <a href="#produits">Produits</a> • <a href="#contacts">Contacts</a>
+        </small>
+    </footer>
+</body>
+
+</html>
